@@ -3,22 +3,22 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "aiHubName": {
-        "value": "hub-demo"
+        "value": "randys-ai-hub-aad"
       },
       "aiHubFriendlyName": {
-        "value": "Agents Hub resource"
+        "value": "randys-ai-hub-aad"
       },
       "aiHubDescription": {
-        "value": "This is an example AI resource for use in Azure AI Studio."
+        "value": ""
       },
       "aiProjectName": {
-        "value": "project-demo"
+        "value": "AI_Agent_Service"
       },
       "aiProjectFriendlyName": {
-        "value": "Agents Project resource"
+        "value": "AI_Agent_Service"
       },
       "aiProjectDescription": {
-        "value": "This is an example AI Project resource for use in Azure AI Studio."
+        "value": ""
       },
       "aiSearchName": {
         "value": "agent-ai-search"
@@ -27,10 +27,10 @@
         "value": "caphost1"
       },
       "storageName": {
-        "value": "agent-storage"
+        "value": "randysagentstorage"
       },
       "aiServicesName": {
-        "value": "agent-ai-services"
+        "value": "randysaihubaad9385982878"
       },
       "modelName": {
         "value": "gpt-4o-mini"
@@ -51,13 +51,13 @@
         "value": "eastus"
       },
       "aiServiceAccountResourceId": {
-        "value": ""
+        "value": "/subscriptions/5dd9aa27-bc10-48b2-af1b-ee65bd051194/resourceGroups/common/providers/Microsoft.CognitiveServices/accounts/randysaihubaad9385982878"
       },
       "aiSearchServiceResourceId": {
-        "value": ""
+        "value": "/subscriptions/5dd9aa27-bc10-48b2-af1b-ee65bd051194/resourceGroups/common/providers/Microsoft.Search/searchServices/randysbasiccogsearch"
       },
       "aiStorageAccountResourceId":{
-        "value": ""
+        "value": "/subscriptions/5dd9aa27-bc10-48b2-af1b-ee65bd051194/resourcegroups/common/providers/Microsoft.Storage/storageAccounts/randysagentstorage"
       },
       "aiServiceKind": {
         "value": "AIServices"
