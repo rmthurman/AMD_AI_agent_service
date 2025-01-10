@@ -21,7 +21,7 @@
         "value": ""
       },
       "aiSearchName": {
-        "value": "agent-ai-search"
+        "value": "randysbasiccogsearch"
       },
       "capabilityHostName": {
         "value": "caphost1"
@@ -60,7 +60,7 @@
         "value": "/subscriptions/5dd9aa27-bc10-48b2-af1b-ee65bd051194/resourcegroups/common/providers/Microsoft.Storage/storageAccounts/randysagentstorage"
       },
       "aiServiceKind": {
-        "value": "AIServices"
+        "value": "AzureOpenAI"
       }
     }
   }
