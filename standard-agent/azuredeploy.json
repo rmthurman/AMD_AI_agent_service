@@ -198,16 +198,16 @@
             "value": "[parameters('location')]"
           },
           "storageName": {
-            "value": "[format('{0}{1}', parameters('storageName'), variables('uniqueSuffix'))]"
+            "value": "randysaihubaad1559110907"
           },
           "keyvaultName": {
-            "value": "[format('kv-{0}-{1}', variables('name'), variables('uniqueSuffix'))]"
+            "value": "randysaihubaad5829015306"
           },
           "aiServicesName": {
-            "value": "[format('{0}{1}', parameters('aiServicesName'), variables('uniqueSuffix'))]"
+            "value": "randysopenaieast"
           },
           "aiSearchName": {
-            "value": "[format('{0}-{1}', parameters('aiSearchName'), variables('uniqueSuffix'))]"
+            "value": "randysbasiccogsearch"
           },
           "tags": {
             "value": "[parameters('tags')]"
