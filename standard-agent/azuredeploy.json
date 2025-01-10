@@ -11,9 +11,9 @@
   "parameters": {
     "aiHubName": {
       "type": "string",
-      "defaultValue": "hub-demo",
+      "defaultValue": "randys-ai-hub-aad",
       "minLength": 2,
-      "maxLength": 12,
+      "maxLength": 24,
       "metadata": {
         "description": "Name for the AI resource and used to derive name of dependent resources."
       }
@@ -34,7 +34,7 @@
     },
     "aiProjectName": {
       "type": "string",
-      "defaultValue": "project-demo",
+      "defaultValue": "AI_Agent_Service",
       "metadata": {
         "description": "Name for the AI project resources."
       }
@@ -69,7 +69,7 @@
     },
     "aiSearchName": {
       "type": "string",
-      "defaultValue": "agent-ai-search",
+      "defaultValue": "randysbasiccogsearch",
       "metadata": {
         "description": "Name of the Azure AI Search account"
       }
@@ -83,14 +83,14 @@
     },
     "storageName": {
       "type": "string",
-      "defaultValue": "agent-storage",
+      "defaultValue": "randysagentstorage",
       "metadata": {
         "description": "Name of the storage account"
       }
     },
     "aiServicesName": {
       "type": "string",
-      "defaultValue": "agent-ai-services",
+      "defaultValue": "randysopenaieast",
       "metadata": {
         "description": "Name of the Azure AI Services account"
       }
@@ -139,7 +139,7 @@
     },
     "aiServiceKind": {
       "type": "string",
-      "defaultValue": "AIServices",
+      "defaultValue": "AzureOpenAI",
       "metadata": {
         "description": "AI Service Account kind: either AzureOpenAI or AIServices"
       }
