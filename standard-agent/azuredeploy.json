@@ -146,21 +146,21 @@
     },
     "aiServiceAccountResourceId": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "/subscriptions/5dd9aa27-bc10-48b2-af1b-ee65bd051194/resourceGroups/common/providers/Microsoft.CognitiveServices/accounts/randysopenaieast",
       "metadata": {
         "description": "The AI Service Account full ARM Resource ID. This is an optional field, and if not provided, the resource will be created."
       }
     },
     "aiSearchServiceResourceId": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "/subscriptions/5dd9aa27-bc10-48b2-af1b-ee65bd051194/resourceGroups/common/providers/Microsoft.Search/searchServices/randysbasiccogsearch",
       "metadata": {
         "description": "The Ai Search Service full ARM Resource ID. This is an optional field, and if not provided, the resource will be created."
       }
     },
     "aiStorageAccountResourceId": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "/subscriptions/5dd9aa27-bc10-48b2-af1b-ee65bd051194/resourcegroups/common/providers/Microsoft.Storage/storageAccounts/randysagentstorage",
       "metadata": {
         "description": "The Ai Storage Account full ARM Resource ID. This is an optional field, and if not provided, the resource will be created."
       }
