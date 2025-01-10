@@ -51,7 +51,7 @@
         "value": "eastus"
       },
       "aiServiceAccountResourceId": {
-        "value": "/subscriptions/5dd9aa27-bc10-48b2-af1b-ee65bd051194/resourceGroups/common/providers/Microsoft.CognitiveServices/accounts/randysaihubaad9385982878"
+        "value": "/subscriptions/5dd9aa27-bc10-48b2-af1b-ee65bd051194/resourceGroups/common/providers/Microsoft.CognitiveServices/accounts/randysopenaieast"
       },
       "aiSearchServiceResourceId": {
         "value": "/subscriptions/5dd9aa27-bc10-48b2-af1b-ee65bd051194/resourceGroups/common/providers/Microsoft.Search/searchServices/randysbasiccogsearch"
